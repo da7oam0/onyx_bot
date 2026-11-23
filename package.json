@@ -1,0 +1,24 @@
+{
+  "name": "onyx_bot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "baileys": "npm:@whiskeysockets/baileys@latest",
+    "better-sqlite3": "^11.10.0",
+    "meowsab": "github:deveni0/meowsab"
+  },
+  "overrides": {
+    "better-sqlite3": "^11.10.0"
+  }
+
+}
